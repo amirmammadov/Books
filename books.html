@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books</title>
+    <!--FontAwesome CDN Link-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+      integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- SWIPERJS CDN LINK -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <!--NAV SECTION-->
+    <nav class="nav">
+      <div class="nav-content">
+        <a href="#" class="logo">books</a>
+        <div class="nav-toggle">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <div class="nav-links">
+          <ul class="links">
+            <li class="nav-item">
+              <a href="home.html" class="nav-link">home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">about</a>
+            </li>
+            <li class="nav-item">
+              <a href="books.html" class="nav-link active">books</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-links">
+          <a href="books.html" class="social-link"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="books.html" class="social-link"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="books.html" class="social-link"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="books.html" class="social-link"
+            ><i class="fa-brands fa-amazon"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <!--HERO SECTION-->
+    <section class="section hero books-hero" id="books-hero">
+      <div class="hero-container">
+        <div class="hero-info">
+          <h2><span>lorem ipsum</span> doler sit amet</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            excepturi?
+          </p>
+          <a href="books.html" class="hero-btn">get about us</a>
+        </div>
+      </div>
+    </section>
+    <!--BOOK LIST FILTER SECTION-->
+    <section class="section book-list" id="book-list">
+      <div class="section-top">
+        <h2 class="section-heading">choose the book</h2>
+      </div>
+      <div class="book-list-container">
+        <div class="book-list-buttons">
+          <!-- <button type="button" class="book-list-btn">novel</button>
+          <button type="button" class="book-list-btn">mystery</button>
+          <button type="button" class="book-list-btn">fiction</button>
+          <button type="button" class="book-list-btn">thriller</button>
+          <button type="button" class="book-list-btn">fantasy</button> -->
+        </div>
+        <div class="book-list-center">
+          <!-- <article class="book-item">
+            <img
+              src="media/book-1.jpeg"
+              alt="books_list"
+              class="book-item-img"
+            />
+            <h2><span>name: </span>crime and punishment</h2>
+            <h3><span>author: </span>F.M.DOSTOYEVSKY</h3>
+            <h4><span>price: </span>10$</h4>
+            <button class="book-item-btn">get the book</button>
+          </article>
+          <article class="book-item">
+            <img
+              src="media/book-1.jpeg"
+              alt="books_list"
+              class="book-item-img"
+            />
+            <h2><span>name: </span>crime and punishment</h2>
+            <h3><span>author: </span>F.M.DOSTOYEVSKY</h3>
+            <h4><span>price: </span>10$</h4>
+            <button class="book-item-btn">get the book</button>
+          </article>
+          <article class="book-item">
+            <img
+              src="media/book-1.jpeg"
+              alt="books_list"
+              class="book-item-img"
+            />
+            <h2><span>name: </span>crime and punishment</h2>
+            <h3><span>author: </span>F.M.DOSTOYEVSKY</h3>
+            <h4><span>price: </span>10$</h4>
+            <button class="book-item-btn">get the book</button>
+          </article>
+          <article class="book-item">
+            <img
+              src="media/book-1.jpeg"
+              alt="books_list"
+              class="book-item-img"
+            />
+            <h2><span>name: </span>crime and punishment</h2>
+            <h3><span>author: </span>F.M.DOSTOYEVSKY</h3>
+            <h4><span>price: </span>10$</h4>
+            <button class="book-item-btn">get the book</button>
+          </article>
+          <article class="book-item">
+            <img
+              src="media/book-1.jpeg"
+              alt="books_list"
+              class="book-item-img"
+            />
+            <h2><span>name: </span>crime and punishment</h2>
+            <h3><span>author: </span>F.M.DOSTOYEVSKY</h3>
+            <h4><span>price: </span>10$</h4>
+            <button class="book-item-btn">get the book</button>
+          </article> -->
+        </div>
+      </div>
+    </section>
+    <!--FIXED SECTION-->
+    <section class="section fixed-section">
+      <div class="fixed-container">
+        <p class="fixed-text">i love books</p>
+      </div>
+    </section>
+    <!--DISCOUNT SECTION-->
+    <section class="section discount" id="discount">
+      <div class="section-top">
+        <h2 class="section-heading">discount</h2>
+      </div>
+      <div class="swiper-container discount-content">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="discount-item">
+              <img
+                src="media/book-1.jpeg"
+                alt="discount-book"
+                class="discount-img"
+              />
+              <div class="discount-info">
+                <p class="name">Crime and Punishment</p>
+                <p class="price"><span>price: </span><del>10$</del> 6$</p>
+                <a href="#" class="get-discount">get the book</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="discount-item">
+              <img
+                src="media/book-3.jpg"
+                alt="discount-book"
+                class="discount-img"
+              />
+              <div class="discount-info">
+                <p class="name">The Picture of Dorian Gray</p>
+                <p class="price"><span>price: </span><del>14$</del> 10$</p>
+                <a href="books.html" class="get-discount">get the book</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="discount-item">
+              <img
+                src="media/book-5.jpg"
+                alt="discount-book"
+                class="discount-img"
+              />
+              <div class="discount-info">
+                <p class="name">The Gambler</p>
+                <p class="price"><span>price: </span><del>20$</del> 14$</p>
+                <a href="books.html" class="get-discount">get the book</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="discount-item">
+              <img
+                src="media/book-1.jpeg"
+                alt="discount-book"
+                class="discount-img"
+              />
+              <div class="discount-info">
+                <p class="name">Crime and Punishment</p>
+                <p class="price"><span>price: </span><del>10$</del> 6$</p>
+                <a href="books.html" class="get-discount">get the book</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="discount-item">
+              <img
+                src="media/book-3.jpg"
+                alt="discount-book"
+                class="discount-img"
+              />
+              <div class="discount-info">
+                <p class="name">The Picture of Dorian Gray</p>
+                <p class="price"><span>price: </span><del>14$</del> 10$</p>
+                <a href="#" class="get-discount">get the book</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="discount-item">
+              <img
+                src="media/book-5.jpg"
+                alt="discount-book"
+                class="discount-img"
+              />
+              <div class="discount-info">
+                <p class="name">The Gambler</p>
+                <p class="price"><span>price: </span><del>20$ </del>14$</p>
+                <a href="#" class="get-discount">get the book</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--FOOTER SETTINGS-->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-cols">
+          <div class="col3">
+            <a href="#" class="logo">books</a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+              officia.Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <div class="col3">
+            <h2>locations</h2>
+            <ul class="footer-list">
+              <li><a href="#">Baku</a></li>
+              <li><a href="#">Istanbul</a></li>
+              <li><a href="#">London</a></li>
+            </ul>
+          </div>
+          <div class="col3">
+            <h2>follow us</h2>
+            <ul class="footer-list">
+              <li><a href="#">instagram</a></li>
+              <li><a href="#">facebook</a></li>
+              <li><a href="#">twitter</a></li>
+              <li><a href="#">youtube</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

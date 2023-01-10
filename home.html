@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books</title>
+    <!--FontAwesome CDN Link-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+      integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <!--NAV SECTION-->
+    <nav class="nav">
+      <div class="nav-content">
+        <a href="#" class="logo">books</a>
+        <div class="nav-toggle">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <div class="nav-links">
+          <ul class="links">
+            <li class="nav-item">
+              <a href="home.html" class="nav-link active">home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">about</a>
+            </li>
+            <li class="nav-item">
+              <a href="books.html" class="nav-link">books</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-links">
+          <a href="home.html" class="social-link"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="home.html" class="social-link"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="home.html" class="social-link"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="home.html" class="social-link"
+            ><i class="fa-brands fa-amazon"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <!--HERO SECTION-->
+    <section class="section home-hero" id="home-hero">
+      <div class="hero-container">
+        <div class="hero-info">
+          <h2>lorem ipsum doler <span>sit amet</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            excepturi?
+          </p>
+          <a href="home.html" class="hero-btn">more info</a>
+        </div>
+      </div>
+    </section>
+    <!--LOCATION SECTION-->
+    <section class="section location" id="location">
+      <div class="section-top">
+        <h2 class="section-heading">locations</h2>
+      </div>
+      <div class="location-container">
+        <div class="location-buttons">
+          <button class="location-btn active" id="first">
+            <i class="fa-solid fa-location-dot"></i>
+          </button>
+          <button class="location-btn" id="second">
+            <i class="fa-solid fa-location-dot"></i>
+          </button>
+          <button class="location-btn" id="third">
+            <i class="fa-solid fa-location-dot"></i>
+          </button>
+        </div>
+        <div class="location-info active" data-id="first">
+          <div class="location-image">
+            <img
+              src="media/location-1.jpg"
+              alt="location"
+              class="location-img"
+            />
+          </div>
+          <div class="location-text">
+            <h2>Baku</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              necessitatibus distinctio fugit recusandae rem deleniti. Quod ea
+              vero non sit?
+            </p>
+            <a href="home.html" class="location-place">get the location</a>
+          </div>
+        </div>
+        <div class="location-info" data-id="second">
+          <div class="location-image">
+            <img
+              src="media/location-2.jpg"
+              alt="location"
+              class="location-img"
+            />
+          </div>
+          <div class="location-text">
+            <h2>Intanbul</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              necessitatibus distinctio fugit recusandae rem deleniti. Quod ea
+              vero non sit?Lorem ipsum dolor, sit amet consectetur adipisicing
+              elit. Accusamus, omnis.
+            </p>
+            <a href="home.html" class="location-place">get the location</a>
+          </div>
+        </div>
+        <div class="location-info" data-id="third">
+          <div class="location-image">
+            <img
+              src="media/location-3.jpg"
+              alt="location"
+              class="location-img"
+            />
+          </div>
+          <div class="location-text">
+            <h2>London</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              necessitatibus distinctio fugit recusandae rem deleniti. Quod ea
+              vero non sit?Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Itaque, labore tempora dolorem quod consequuntur possimus
+              rem delectus adipisci. Unde, nulla.
+            </p>
+            <a href="home.html" class="location-place">get the location</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--POPULAR SECTION-->
+    <section class="section popular" id="popular">
+      <div class="section-top">
+        <h2 class="section-heading">popular</h2>
+      </div>
+      <div class="popular-container">
+        <div class="popular-books">
+          <div class="book-item">
+            <img
+              src="media/popular-1.jpg"
+              alt="crime_punishment"
+              class="popular-img"
+            />
+            <div class="book-overlay">
+              <div class="overlay-info">
+                <h2>Crime and Punishment</h2>
+                <h3>F.M.DOSTEYEVSKY</h3>
+                <a href="home.html">get the book</a>
+              </div>
+            </div>
+          </div>
+          <div class="book-item">
+            <img
+              src="media/popular-2.jpg"
+              alt="crime_punishment"
+              class="popular-img"
+            />
+            <div class="book-overlay">
+              <div class="overlay-info">
+                <h2>A Tale of Two Cities</h2>
+                <h3>Charles Dickens</h3>
+                <a href="home.html">get the book</a>
+              </div>
+            </div>
+          </div>
+          <div class="book-item">
+            <img
+              src="media/popular-3.jpg"
+              alt="crime_punishment"
+              class="popular-img"
+            />
+            <div class="book-overlay">
+              <div class="overlay-info">
+                <h2>Harry Potter and the Philosopher's Stone</h2>
+                <h3>J. K. Rowling</h3>
+                <a href="home.html">get the book</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--FOOTER SETTINGS-->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-cols">
+          <div class="col3">
+            <a href="home.html" class="logo">books</a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+              officia.Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <div class="col3">
+            <h2>locations</h2>
+            <ul class="footer-list">
+              <li><a href="home.html">Baku</a></li>
+              <li><a href="home.html">Istanbul</a></li>
+              <li><a href="home.html">London</a></li>
+            </ul>
+          </div>
+          <div class="col3">
+            <h2>follow us</h2>
+            <ul class="footer-list">
+              <li><a href="home.html">instagram</a></li>
+              <li><a href="home.html">facebook</a></li>
+              <li><a href="home.html">twitter</a></li>
+              <li><a href="home.html">youtube</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
